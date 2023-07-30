@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  background-color: #191e29;
+  color: #ffffff;
+}
+
+#canvas {
+  min-height: 600px;
+  min-width: 950px;
+}
+
+.county:is(:hover, :focus) {
+    opacity: 50%;
+}
+
+#tooltip {
+  visibility: hidden;
+  height: auto;
+  width: auto;
+  margin-top: 2px;
+  color: #fdf1e7;
+}
+
+#legend {
+  color: rgb(56, 58, 74);
+  font-size: 18px;
+  text-align: center;
+  min-height: 150px;
+  max-width: 180px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#title {
+  font-size: 28px;
+  color: #01c380;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#description a {
+  text-decoration: none;
+  color: #fdf1e7;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+}
+
+#rightSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
