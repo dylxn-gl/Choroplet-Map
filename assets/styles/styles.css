@@ -24,7 +24,7 @@ body {
 }
 
 .county:is(:hover, :focus) {
-    opacity: 50%;
+  opacity: 50%;
 }
 
 #tooltip {
